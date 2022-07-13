@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from "./components"
 
 export const GifExpertApp = () => {
 
-    const [ categories, setCategories] = useState( ['casa'] )
+    const [ categories, setCategories] = useState( [] )
     
     const onAddCategory = (newCategory) => {
 
@@ -27,7 +27,7 @@ export const GifExpertApp = () => {
         <>
 
 
-        <h1>Gif Expert App</h1>
+        <h1>Gif Search App</h1>
 
         <AddCategory 
             onNewCategory={(event) => onAddCategory(event) } 

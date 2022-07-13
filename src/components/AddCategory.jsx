@@ -29,7 +29,7 @@ export const AddCategory = ({ onNewCategory }) => {
 
         <input 
          type="text"
-         placeholder="ingresa texto"
+         placeholder="input text to search"
          value={inputValue}
          onChange={ (event) => enInputChange(event) }
         />
