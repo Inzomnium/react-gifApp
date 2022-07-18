@@ -14,26 +14,15 @@ export const GifGrid =  ({ category}) => {
     const {images, isLoading} = useFetchGifs(category);
 
     
-  
-  
-    
-
-   
-
-   
-
-
-    
    
     
     return (
     <>
         <h3>{ category }</h3>
-
+        
         {
-            isLoading && ( 
-            console.log('cargo'),
-            <h2>Cargando...</h2>
+            isLoading && (          
+                <img width="300" src="/src/images/loading.gif" />
             ) 
         }
 
